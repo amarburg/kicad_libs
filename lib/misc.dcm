@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  Date: Thu 15 Mar 2012 15:25:17 NZDT
+#
+$CMP SMD_MICRO_PUSHBUTTON
+D SMD_micro_pushbutton
+K Switch
+$ENDCMP
+#
+#End Doc Library
