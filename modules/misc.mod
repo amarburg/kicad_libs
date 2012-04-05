@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Tue 27 Mar 2012 21:32:50 NZDT
+PCBNEW-LibModule-V1  Thu 05 Apr 2012 18:45:07 NZST
 # encoding utf-8
 $INDEX
 A4982_TSSOP24_with_pad
@@ -7,6 +7,8 @@ HIROSE_MicroSD_DM3AT
 KMR_2_smd_pushbutton
 OSHW_10mm
 PV36W_pot
+cap_polarized_2mm_leads_5mm_od
+cap_polarized_5mm_leads_10mm_od
 $EndINDEX
 $MODULE PV36W_pot
 Po 0 0 0 15 4F571376 00000000 ~~
@@ -525,7 +527,7 @@ $MODULE A4982_TSSOP24_with_pad
 Po 0 0 0 15 4F717B29 00000000 ~~
 Li A4982_TSSOP24_with_pad
 Sc 00000000
-AR 
+AR
 Op 0 0 0
 T0 0 -2000 600 600 0 120 N V 21 N "A4982_TSSOP24_with_pad"
 T1 0 -1000 600 600 0 120 N V 21 N "VAL**"
@@ -707,4 +709,56 @@ Ne 0 ""
 Po 0 1407
 $EndPAD
 $EndMODULE  A4982_TSSOP24_with_pad
+$MODULE cap_polarized_2mm_leads_5mm_od
+Po 0 0 0 15 4F7D3F0E 00000000 ~~
+Li cap_polarized_2mm_leads_5mm_od
+Sc 00000000
+AR
+Op 0 0 0
+T0 236 -2244 600 600 0 120 N V 21 N "cap_polarized_2mm_leads_5mm_od"
+T1 -118 -3425 600 600 0 120 N V 21 N "VAL**"
+DS -1260 -394 -1260 -866 150 21
+DS -1024 -630 -1496 -630 150 21
+DC 0 0 984 0 150 21
+$PAD
+Sh "1" R 354 354 0 0 0
+Dr 236 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -394 0
+$EndPAD
+$PAD
+Sh "2" C 354 354 0 0 0
+Dr 236 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 394 0
+$EndPAD
+$EndMODULE  cap_polarized_2mm_leads_5mm_od
+$MODULE cap_polarized_5mm_leads_10mm_od
+Po 0 0 0 15 4F7D3F6E 00000000 ~~
+Li cap_polarized_5mm_leads_10mm_od
+Sc 00000000
+AR 
+Op 0 0 0
+T0 0 -1339 600 600 0 120 N V 21 N "cap_polarized_5mm_leads_10mm_od"
+T1 -79 -2047 600 600 0 120 N V 21 N "VAL**"
+DS -2205 -1181 -2205 -1654 150 21
+DS -2441 -1417 -1969 -1417 150 21
+DC 0 0 -1969 79 150 21
+$PAD
+Sh "1" R 394 394 0 0 0
+Dr 295 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -984 0
+$EndPAD
+$PAD
+Sh "2" C 394 394 0 0 0
+Dr 295 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 984 0
+$EndPAD
+$EndMODULE  cap_polarized_5mm_leads_10mm_od
 $EndLIBRARY
