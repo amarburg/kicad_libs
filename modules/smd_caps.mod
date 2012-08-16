@@ -1,13 +1,15 @@
-PCBNEW-LibModule-V1  Tue 27 Mar 2012 22:02:00 NZDT
+PCBNEW-LibModule-V1  Thu 16 Aug 2012 21:46:32 NZST
 # encoding utf-8
 $INDEX
+HC49/US
+SMD_electrolytic_4mm_cap
 SMD_electrolytic_8mm_cap
 $EndINDEX
 $MODULE SMD_electrolytic_8mm_cap
 Po 0 0 0 15 4F7181D7 00000000 ~~
 Li SMD_electrolytic_8mm_cap
 Sc 00000000
-AR 
+AR
 Op 0 0 0
 T0 236 -945 600 600 0 120 N V 21 N "SMD_electrolytic_8mm_cap"
 T1 276 -1772 600 600 0 120 N V 21 N "VAL**"
@@ -28,4 +30,38 @@ Ne 0 ""
 Po 0 2559
 $EndPAD
 $EndMODULE  SMD_electrolytic_8mm_cap
+$MODULE SMD_electrolytic_4mm_cap
+Po 0 0 0 15 502CB306 00000000 ~~
+Li SMD_electrolytic_4mm_cap
+Sc 00000000
+AR SMD_electrolytic_8mm_cap
+Op 0 0 0
+T0 236 -945 600 600 0 120 N V 21 N "SMD_electrolytic_4mm_cap"
+T1 276 -1772 600 600 0 120 N V 21 N "VAL**"
+DS -709 866 709 866 150 21
+DC 0 551 787 551 150 21
+$PAD
+Sh "1" R 295 984 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" R 295 984 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 1181
+$EndPAD
+$EndMODULE  SMD_electrolytic_4mm_cap
+$MODULE HC49/US
+Po 0 0 0 15 502CC148 00000000 ~~
+Li HC49/US
+Sc 00000000
+AR 
+Op 0 0 0
+T0 0 0 600 600 0 120 N V 21 N "HC49/US"
+T1 0 0 600 600 0 120 N V 21 N "VAL**"
+$EndMODULE  HC49/US
 $EndLIBRARY
