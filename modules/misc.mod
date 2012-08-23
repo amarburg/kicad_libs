@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Fri 17 Aug 2012 15:47:29 NZST
+PCBNEW-LibModule-V1  Thu 23 Aug 2012 14:51:38 NZST
 # encoding utf-8
 $INDEX
 A4982_TSSOP24_with_pad
@@ -10,6 +10,8 @@ HIROSE_MicroSD_DM3AT
 KMR_2_smd_pushbutton
 OSHW_10mm
 PV36W_pot
+Switchcraft
+Switchcraft_3.5mm_horizontal_stereo_jack
 TSSOP8
 cap_polarized_2mm_leads_5mm_od
 cap_polarized_5mm_leads_10mm_od
@@ -1571,7 +1573,7 @@ $MODULE HC-49/US
 Po 0 0 0 15 502DBECC 00000000 ~~
 Li HC-49/US
 Sc 00000000
-AR 
+AR
 Op 0 0 0
 T0 1750 1500 600 600 0 120 N V 21 N "HC-49/US"
 T1 1250 -750 600 600 0 120 N V 21 N "VAL**"
@@ -1594,4 +1596,114 @@ Ne 0 ""
 Po 2165 0
 $EndPAD
 $EndMODULE  HC-49/US
+$MODULE Switchcraft 3.5mm horizontal stereo jack
+Po 0 0 0 15 50359A74 00000000 ~~
+Li Switchcraft 3.5mm horizontal stereo jack
+Sc 00000000
+AR
+Op 0 0 0
+T0 2756 2953 600 600 0 120 N V 21 N "Switchcraft 3.5mm horizontal stereo jack"
+T1 1181 -2953 600 600 0 120 N V 21 N "VAL**"
+DS -1575 -787 -1181 787 150 21
+DS -394 -787 0 787 150 21
+DS -787 -787 -394 787 150 21
+DS -1181 -787 -787 787 150 21
+DS 0 -787 -1575 -787 150 21
+DS -1575 -787 -1575 787 150 21
+DS -1575 787 0 787 150 21
+DS 0 -2362 5512 -2362 150 21
+DS 5512 -2362 5512 2165 150 21
+DS 5512 2165 0 2165 150 21
+DS 0 2165 0 -2362 150 21
+$PAD
+Sh "S" C 866 866 0 0 0
+Dr 728 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 787 0
+$EndPAD
+$PAD
+Sh "R" C 866 866 0 0 0
+Dr 728 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3858 -2047
+$EndPAD
+$PAD
+Sh "3" C 866 866 0 0 0
+Dr 728 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3307 -984
+$EndPAD
+$PAD
+Sh "4" C 866 866 0 0 0
+Dr 728 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5118 1575
+$EndPAD
+$PAD
+Sh "T" C 866 866 0 0 0
+Dr 728 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2126 1772
+$EndPAD
+$EndMODULE  Switchcraft 3.5mm horizontal stereo jack
+$MODULE Switchcraft_3.5mm_horizontal_stereo_jack
+Po 0 0 0 15 50359A74 00000000 ~~
+Li Switchcraft_3.5mm_horizontal_stereo_jack
+Sc 00000000
+AR 
+Op 0 0 0
+T0 2756 2953 600 600 0 120 N V 21 N "Switchcraft 3.5mm horizontal stereo jack"
+T1 1181 -2953 600 600 0 120 N V 21 N "VAL**"
+DS -1575 -787 -1181 787 150 21
+DS -394 -787 0 787 150 21
+DS -787 -787 -394 787 150 21
+DS -1181 -787 -787 787 150 21
+DS 0 -787 -1575 -787 150 21
+DS -1575 -787 -1575 787 150 21
+DS -1575 787 0 787 150 21
+DS 0 -2362 5512 -2362 150 21
+DS 5512 -2362 5512 2165 150 21
+DS 5512 2165 0 2165 150 21
+DS 0 2165 0 -2362 150 21
+$PAD
+Sh "S" C 866 866 0 0 0
+Dr 728 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 787 0
+$EndPAD
+$PAD
+Sh "R" C 866 866 0 0 0
+Dr 728 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3858 -2047
+$EndPAD
+$PAD
+Sh "3" C 866 866 0 0 0
+Dr 728 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3307 -984
+$EndPAD
+$PAD
+Sh "4" C 866 866 0 0 0
+Dr 728 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5118 1575
+$EndPAD
+$PAD
+Sh "T" C 866 866 0 0 0
+Dr 728 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2126 1772
+$EndPAD
+$EndMODULE  Switchcraft_3.5mm_horizontal_stereo_jack
 $EndLIBRARY
