@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Thu 23 Aug 2012 14:51:38 NZST
+PCBNEW-LibModule-V1  Sat 01 Sep 2012 20:35:05 NZST
 # encoding utf-8
 $INDEX
 A4982_TSSOP24_with_pad
@@ -9,6 +9,7 @@ HC-49/US
 HIROSE_MicroSD_DM3AT
 KMR_2_smd_pushbutton
 OSHW_10mm
+PULSE_65612
 PV36W_pot
 Switchcraft
 Switchcraft_3.5mm_horizontal_stereo_jack
@@ -1655,7 +1656,7 @@ $MODULE Switchcraft_3.5mm_horizontal_stereo_jack
 Po 0 0 0 15 50359A74 00000000 ~~
 Li Switchcraft_3.5mm_horizontal_stereo_jack
 Sc 00000000
-AR 
+AR
 Op 0 0 0
 T0 2756 2953 600 600 0 120 N V 21 N "Switchcraft 3.5mm horizontal stereo jack"
 T1 1181 -2953 600 600 0 120 N V 21 N "VAL**"
@@ -1706,4 +1707,47 @@ Ne 0 ""
 Po 2126 1772
 $EndPAD
 $EndMODULE  Switchcraft_3.5mm_horizontal_stereo_jack
+$MODULE PULSE_65612
+Po 0 0 0 15 5041C86D 00000000 ~~
+Li PULSE_65612
+Sc 00000000
+AR 
+Op 0 0 0
+T0 2000 1250 600 600 0 120 N V 21 N "PULSE_65612"
+T1 2000 -2000 600 600 0 120 N V 21 N "VAL**"
+DS 4000 -2750 4500 -2250 150 21
+DS -500 -2250 0 -2750 150 21
+DS -500 750 -500 -2750 150 21
+DS -500 -2750 4500 -2750 150 21
+DS 4500 -2750 4500 750 150 21
+DS 4500 750 -500 750 150 21
+$PAD
+Sh "1" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -2000
+$EndPAD
+$PAD
+Sh "3" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 4000 0
+$EndPAD
+$PAD
+Sh "4" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 4000 -2000
+$EndPAD
+$EndMODULE  PULSE_65612
 $EndLIBRARY
